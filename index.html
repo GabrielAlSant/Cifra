@@ -7,26 +7,28 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     </head>
     <body>
+<h1 class="text-center">Cifra de Cesar</h1>
 
-
-        <div class="container">
-            <div id="label">Senha: </div>
-        <button onclick="prev()">-</button>
-        <span id="chavecript">1</span>
-        <button onclick="next()">+</button><br/><br/>
-        <input type="text" id="textnormal"/>
-        <button onclick="cript()" id="big">Criptrografar</button>
-        <span id="textscript"></span>
-        </div>
-
-        <div class="container">
-            <div id="label">Senha: </div>
-        <button onclick="prev2()">-</button>
-        <span id="chavedescrip">1</span>
-        <button onclick="next2()">+</button><br/><br/>
-        <input type="text" id="textcript"/>
-        <button onclick="descript()" id="big">Descriptrografar</button>
-        <span id="textdesc"></span>
+        <div class="d-flex">
+            <div class="container ml-2">
+                <div id="label">Senha: </div>
+            <button onclick="prev()" class="btn btn-dark">-</button>
+            <span id="chavecript">1</span>
+            <button onclick="next()" class="btn btn-dark">+</button><br/><br/>
+            <input type="text" id="textnormal"/>
+            <button onclick="cript()" id="big" class="btn btn-dark">Criptrografar</button>
+            <span id="textscript"></span>
+            </div>
+    
+            <div class="container">
+                <div id="label">Senha: </div>
+            <button onclick="prev2()" class="btn btn-dark">-</button>
+            <span id="chavedescrip">1</span>
+            <button onclick="next2()" class="btn btn-dark">+</button><br/><br/>
+            <input type="text" id="textcript"/>
+            <button onclick="descript()" id="big" class="btn btn-dark">Descriptrografar</button>
+            <span id="textdesc"></span>
+            </div>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
